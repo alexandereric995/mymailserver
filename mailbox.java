@@ -42,7 +42,7 @@ public class MetalworksInBox extends JInternalFrame {
         business.add(new DefaultMutableTreeNode("Inbox"));
         business.add(new DefaultMutableTreeNode("Inbox"));
         business.add(new DefaultMutableTreeNode(
-                "Project Metal: delivered on time"));
+                "Project MailBox: delivered on time"));
         business.add(new DefaultMutableTreeNode("Inbox"));
 
         spam.add(new DefaultMutableTreeNode("Inbox"));
