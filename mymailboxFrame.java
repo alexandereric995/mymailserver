@@ -72,7 +72,6 @@ public final class mymailFrame extends JFrame {
         JMenu speed = buildSpeedMenu();
         JMenu help = buildHelpMenu();
 
-        // load a theme from a text file
         MetalTheme myTheme = null;
         try {
             InputStream istream = getClass().getResourceAsStream(
@@ -82,7 +81,7 @@ public final class mymailFrame extends JFrame {
             System.out.println(e);
         }
 
-        // build an array of themes
+
         MetalTheme[] themes = { new OceanTheme(),
             new DefaultMetalTheme(),
             new GreenMetalTheme(),
@@ -93,7 +92,6 @@ public final class mymailFrame extends JFrame {
             new BigContrastMetalTheme(),
             myTheme };
 
-        // put the themes in a menu
         JMenu themeMenu = new MetalThemeMenu("Theme", themes);
 
         menuBar.add(file);
@@ -207,10 +205,7 @@ public final class mymailFrame extends JFrame {
         slow.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                // for right now I'm saying if you set the mode
-                // to something other than a specified mode
-                // it will revert to the old way
-                // This is mostly for comparison's sake
+                
                 desktop.setDragMode(-1);
             }
         });
