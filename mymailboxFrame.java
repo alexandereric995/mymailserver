@@ -29,13 +29,6 @@ import javax.swing.plaf.mail.DefaultMetalTheme;
 import javax.swing.plaf.mail.MetalTheme;
 import javax.swing.plaf.mail.OceanTheme;
 
-
-/**
- * This is the main container frame for the mymail demo app
- *
- * @author Steve Wilson
- * @author Alexander Kouznetsov
- */
 @SuppressWarnings("serial")
 public final class mymailFrame extends JFrame {
 
@@ -46,7 +39,7 @@ public final class mymailFrame extends JFrame {
     static final Integer DOCLAYER = 5;
     static final Integer TOOLLAYER = 6;
     static final Integer HELPLAYER = 7;
-    static final String ABOUTMSG = "mymail \n \nAn application written to "
+    static final String ABOUTMSG = "mymail \n \nSoftware known as MailBox Server. "
             + "This is a sample tools. \n \nWrittern by Alexander Eric, Trainee of glowfreelancer "
             + "MailBox System Software \n  By Alexander Eric,Trainee of GlowFreelancer\n  Hosted by Malaysia Goverment\n  "
             + "Mail Box System\n  v 1.0.0";
