@@ -11,9 +11,9 @@ import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
 
 @SuppressWarnings("serial")
-public class MetalworksInBox extends JInternalFrame {
+public class MailBox extends JInternalFrame {
 
-    public MetalworksInBox() {
+    public mailBox() {
         super("In Box", true, true, true, true);
 
         DefaultMutableTreeNode unread;
