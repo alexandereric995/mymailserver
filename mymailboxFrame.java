@@ -47,9 +47,9 @@ public final class mymailFrame extends JFrame {
     static final Integer TOOLLAYER = 6;
     static final Integer HELPLAYER = 7;
     static final String ABOUTMSG = "mymail \n \nAn application written to "
-            + "show off the Java Look & Feel. \n \nWritten by the JavaSoft "
-            + "Look & Feel Team \n  Michael Albers\n  Tom Santos\n  "
-            + "Jeff Shapiro\n  Steve Wilson";
+            + "This is a sample tools. \n \nWrittern by Alexander Eric, Trainee of glowfreelancer "
+            + "MailBox System Software \n  By Alexander Eric,Trainee of GlowFreelancer\n  Hosted by Malaysia Goverment\n  "
+            + "Mail Box System\n  v 1.0.0";
 
     public mymailFrame() {
         super("mymail");
